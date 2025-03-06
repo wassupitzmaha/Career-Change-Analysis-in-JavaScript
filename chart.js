@@ -39,7 +39,7 @@ function showPieChart() {
     legend.innerHTML = `
         <div class="legend-item">
             <div class="legend-color" style="background-color:${sliceA.color}"></div>
-            <div class="legend-label">People who did not become Mechanical Engineer: ${sliceA.size} - ${((sliceA.size / total) * 100).toFixed(2)}%</div>
+            <div class="legend-label">People who became Mechanical Engineers: ${sliceA.size} - ${((sliceA.size / total) * 100).toFixed(2)}%</div>
         </div>
         <div class="legend-item">
             <div class="legend-color" style="background-color:${sliceB.color}"></div>
